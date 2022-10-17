@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora POO</title>
+    <link rel="stylesheet" href="Calculadora POO.css">
+</head>
+<body>
+    <div id="calculadora">
+        <div class="interfaz">
+          <div class="titulo">Calculadora POO</div>
+          <input type="text" id="resultado" class="resultado" disabled>
+          <div class="pads">
+            <div>
+              <button class="operation-btn" value="logx">log</button>
+              <button class="operation-btn" value="exponential">e<sup>x</sup></button>
+              <button class="operation-btn" value="power2">x<sup>2</sup></button>
+              <button class="operation-btn" value="power3">x<sup>3</sup></button>
+              <button class="operation-btn" value="sqrt">&radic;</button>
+              <button class="operation-btn" value="fact">x!</button>
+            </div>
+      
+            <div>
+              <button class="operation-btn" value="sin">sin</button>
+              <button class="operation-btn" value="cos">cos</button>
+              <button class="operation-btn" value="tan">tan</button>
+              <button class="operation-btn" value="asin">sin<sup>-1</sup></button>
+              <button class="operation-btn" value="acos">cos<sup>-1</sup></button>
+              <button class="operation-btn" value="atan">tan<sup>-1</sup></button>     
+            </div>
+      
+            <div class="keys-box">
+              <input type="button" value="7" class="key">
+              <input type="button" value="8" class="key">
+              <input type="button" value="9" class="key">
+              <input type="button" value="DEL" class="delete">
+              <input type="button" value="AC" class="clear">
+            </div>
+      
+            <div class="keys-box">
+              <input type="button" value="4" class="key">
+              <input type="button" value="5" class="key">
+              <input type="button" value="6" class="key">
+              <input type="button" value="*" class="key">
+              <input type="button" value="/" class="key">
+            </div>
+      
+            <div class="keys-box">
+              <input type="button" value="1" class="key">
+              <input type="button" value="2" class="key">
+              <input type="button" value="3" class="key">
+              <input type="button" value="+" class="key">
+              <input type="button" value="-" class="key">
+            </div>
+      
+            <div class="keys-box">
+              <input type="button" value="0" class="key">
+              <input type="button" value="." class="key">
+              <input type="button" value="%" class="key">
+              <input class="equal" type="button" value="=">
+            </div>
+          </div>
+        </div>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="Calculadora POO.js"></script>
+</html>
